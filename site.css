@@ -106,3 +106,12 @@ footer.site{background:var(--black);border-top:1px solid var(--line);padding:80p
 .svc{grid-template-columns:44px 1fr;grid-template-rows:auto auto}
 .svc .note{grid-column:2}
 }
+/* reviews */
+.reviews{display:grid;grid-template-columns:1fr 1fr;gap:26px;margin-top:4px}
+.review{border:1px solid var(--line);padding:46px 42px;display:flex;flex-direction:column;gap:26px}
+.stars{color:var(--ice);letter-spacing:.34em;font-size:15px;line-height:1}
+.review-text{font-family:var(--serif);font-style:italic;font-size:clamp(19px,1.5vw,23px);line-height:1.5;margin:0}
+.review-by{margin-top:auto;border-top:1px solid var(--line);padding-top:22px}
+.review-name{font-weight:600;letter-spacing:.03em}
+.review-src{font-size:11px;letter-spacing:.22em;text-transform:uppercase;opacity:.55;margin:5px 0 0}
+@media(max-width:720px){.reviews{grid-template-columns:1fr}}
