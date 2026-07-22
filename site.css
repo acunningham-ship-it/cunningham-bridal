@@ -39,7 +39,7 @@ a:hover{opacity:.72}
 a[href^="tel"]{white-space:nowrap}
 .tel-link{border-bottom:1px solid var(--line);padding-bottom:2px}
 /* bands + layout */
-.band{padding:110px 0}
+.band{padding:132px 0}
 .band.tight{padding:72px 0}
 .band.light{background:var(--ice);color:var(--charcoal)}
 .band.white{background:var(--white);color:var(--charcoal)}
@@ -115,3 +115,6 @@ footer.site{background:var(--black);border-top:1px solid var(--line);padding:80p
 .review-name{font-weight:600;letter-spacing:.03em}
 .review-src{font-size:11px;letter-spacing:.22em;text-transform:uppercase;opacity:.55;margin:5px 0 0}
 @media(max-width:720px){.reviews{grid-template-columns:1fr}}
+/* light-section service rows (borders visible on ivory) */
+.light .svc,.white .svc{border-top-color:var(--line-dark)}
+.light .svc:last-child,.white .svc:last-child{border-bottom-color:var(--line-dark)}
