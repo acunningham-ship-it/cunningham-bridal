@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://acunningham-ship-it.github.io/cunningham-bridal/sitemap.xml
